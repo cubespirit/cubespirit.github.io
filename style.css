@@ -1,0 +1,74 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 25vw 25vw 25vw;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 12pt;
+}
+
+.item p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+#mark {
+    background-image: linear-gradient(120deg,#ff0,#ff0);
+    background-repeat: no-repeat;
+    background-size: 100% .55em;
+    background-position: 0 110%;
+ }
+ 
+
+.aboutme p {
+    position: absolute;
+    bottom: 10vw;
+    font-family: 'Space Mono', monospace;
+    font-size: 30pt;
+    margin-left: 40px;
+}
+
+.aboutme div {
+    position: relative;
+}
+
+.item {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+    background-color: white;
+    z-index: 40;
+}
+
+.navlink {
+    padding-right: 1em;
+    font-size: 2vw;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+}
+
+header a {
+    font-family: 'SeveralMono', sans-serif;
+    font-size: 6vw;
+    bottom: 0;
+    padding-left: .5em;
+    line-height: 60%;
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: blue;
+}
