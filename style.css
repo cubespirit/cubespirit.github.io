@@ -1,7 +1,14 @@
 .portfolio {
     display: grid;
     grid-template-columns: 25vw 25vw 25vw;
-    grid-template-rows: 25vw 25vw 25vw;
+    grid-template-rows: 25vw 25vw;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.pcontainer {
+    display: grid;
+    grid-template-columns: 75vw;
 }
 
 .item img {
@@ -16,6 +23,7 @@
 .item p {
     font-family: 'Helvetica', sans-serif;
 }
+
 
 #mark {
     background-image: linear-gradient(120deg,#ff0,#ff0);
@@ -54,21 +62,22 @@ nav {
 
 .navlink {
     padding-right: 1em;
-    font-size: 2vw;
+    font-size: 24px;
     font-family: 'Space Mono', monospace;
     text-decoration: none;
+    color: darkgray;
+}
+
+.navlink:hover {
+    color:	#CCCC00;
 }
 
 header a {
     font-family: 'SeveralMono', sans-serif;
-    font-size: 6vw;
+    font-size: 72px;
     bottom: 0;
     padding-left: .5em;
     line-height: 60%;
     text-decoration: none;
-    color: black;
-}
-
-header a:hover {
-    color: blue;
+    color: #525252;
 }
